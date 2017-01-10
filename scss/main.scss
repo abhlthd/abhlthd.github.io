@@ -1,0 +1,11 @@
+@import 'base/_reset';
+@import 'base/_variable';
+@import 'partials/_frontpage';
+@import 'partials/_form';
+@import 'partials/_home';
+@import 'partials/_profile';
+
+.container {
+  margin: 0 auto;
+  font-family: $primary-font;
+}

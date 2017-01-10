@@ -1,0 +1,265 @@
+@import '../base/_variable';
+
+.home{
+  font-family: 'Raleway', sans-serif;
+}
+.header{
+  background: #ffffff;
+  height: 75px;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  position: fixed;
+  font-family: 'Raleway', sans-serif;
+}
+.header-container{
+  width: 980px;
+  margin: auto;
+  height: 100%;
+}
+.Logo{
+  margin-top: 10px;
+  float: left;
+}
+.Logo img{
+  height: 100%;
+  width: 100%;
+}
+.headerControl{
+  float: right;
+  display: inline-flex;
+  margin: 25px 25px 0 0;
+}
+.headerNavigation ul li{
+  display: inline-flex;
+  padding-right: 35px;
+}
+.searchbox{
+  float: left;
+  margin: 25px 0 0 10%;
+}
+.searchbox input{
+  width: 210px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  text-align: center;
+}
+.content{
+  width: 602px;
+  margin: auto;
+  padding: 100px 0 0 0;
+  font-family: 'Raleway', sans-serif;
+}
+.post-status{
+  background: #EBF4FB;
+  border: 1px solid #ddd;
+}
+.post-status textarea{
+  width: 80%;
+    border-radius: 5px;
+    height: 100px;
+    /* margin: 50px; */
+    margin: 30px 0 0 55px;
+    font-size: 14px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.post-btn{
+  float: right;
+    margin: 0px 60px 0 0;
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    background: #1b95e0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.action label{
+  margin: 0 0 0 55px;
+  cursor: pointer;
+}
+.thumbnail{
+  height: 100px;
+  width: 100px;
+  margin: 10px 0 10px 50px;
+}
+.follow-suggestion{
+    border: 1px solid #ddd;
+    margin: 25px 0 0 0;
+}
+.suggestion-header {
+    height: 50px;
+    /* background: #ebf4fb; */
+    border-bottom: 1px solid #ddd;
+}
+.suggestion-header h1{
+  float: left;
+    padding: 17px;
+    font-weight: bold;
+    color: #999;
+}
+.suggestion-header a{
+  float: right;
+    margin: 17px;
+}
+.follow-row{
+  padding: 12px 0 0 15px;
+  height: 75px;
+  border-bottom: 1px solid #ddd;
+}
+.member{
+  float: left;
+}
+.member a img{
+  border-radius: 50%;
+}
+.follow-btn{
+  float: right;
+  height: 30px;
+    width: 130px;
+    border: 1px solid #3897f0;
+    background: #fff;
+    border-radius: 5px;
+    color: #3897f0;
+    margin: 20px;
+    cursor: pointer;
+}
+.unfollow-btn{
+  float: right;
+  height: 30px;
+    width: 130px;
+    border: 1px solid #70c050 !important;
+    background: #70c050 !important;
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px;
+    cursor: pointer;
+}
+.username{
+  float: right;
+  margin: 18px;
+}
+.username {
+  h2{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+.timeline{
+  margin: 25px 0 0 0;
+}
+.photo-card{
+  margin: 45px 0 25px 0;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.card-header{
+  height: 73px;
+}
+.uploader{
+  float: left;
+  padding: 10px;
+}
+.upload-date{
+  float: right;
+  margin: 25px;
+}
+.avatar img{
+  border-radius: 50%;
+  height: 50px;
+}
+.card-status{
+  display: inline-flex;
+}
+.card-status{
+  a{
+
+  }
+  p{
+
+  }
+}
+.card-footer{
+  width: 95%;
+    margin: 15px;
+    /* padding: 0; */
+    height: 75px;
+    border-top: 1px solid #ccc;
+    /* padding-top: 15px; */
+    display: inline-flex;
+}
+.usernamestt{
+  padding: 10px 0 0 25px;
+  font-weight: bold;
+}
+.status{
+  padding: 10px 0 0 5px;
+}
+.num-liked{
+  padding: 10px 0 0 25px;
+}
+.like-btn{
+  padding: 25px;
+  cursor: pointer;
+}
+.card-footer input{
+  height: 35px;
+    /* padding-top: 25px; */
+    margin-top: 20px;
+    border: none;
+    width: 80%;
+    outline: none;
+}
+.submit-comment-btn{
+  padding-top: 25px;
+    cursor: pointer;
+}
+.comment{
+  display: inline-flex;
+  width: 100%;
+  a{
+    padding: 0 0 0 25px;
+    font-weight: bold;
+  }
+  p{
+    padding: 0 0 0 5px
+  }
+}
+.card-content a::after{
+  position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.6) url(http://handcoded.ca/demos/hover-overlay/images/happy.png) center center no-repeat;
+		opacity: 0;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+}
+.search-result{
+  background: #fff;
+    margin: 50px 0 0 22%;
+    width: 30%;
+    box-shadow: 1px 1px 1px #888888;
+}
+.search-result-row{
+  display: inline-block;
+  margin: 15px;
+  img{
+    float: left;
+    border-radius: 50%;
+    height: 50px;
+  }
+  span:first-child{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  span{
+    line-height: 50px;
+    margin: 10px;
+  }
+}
